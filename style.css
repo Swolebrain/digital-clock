@@ -1,0 +1,25 @@
+body{
+    height:500px;
+}
+
+#top-row{
+    height:50%;
+    background-color:aqua;
+}
+#bottom-row{
+    height:50%;
+    background-color: antiquewhite;
+}
+
+#top-left, #bottom-left, #top-right, #bottom-right{
+    height:100%;
+    border:2px solid black;
+    width:50%;
+    box-sizing:border-box;
+    float:left;
+    font-size:60px;
+    text-align: center;
+}
+
+
+
